@@ -72,7 +72,7 @@ GO
 CREATE TABLE [dbo].[tasks](
 	[id] [bigint] IDENTITY(1,1) NOT NULL,
 	[project_id] [bigint] NOT NULL,
-	[staff_id] [bigint] NOT NULL,
+	[staff_id] [bigint] NULL,
 	[task_name] [varchar](50) NULL,
 	[due_date] [date] NULL,
 	[estimated_hours] [decimal](12, 2) NULL,
