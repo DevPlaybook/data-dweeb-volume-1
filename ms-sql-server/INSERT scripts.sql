@@ -107,12 +107,3 @@ INSERT INTO tasks (id, project_id, staff_id, task_name, due_date, estimated_hour
 INSERT INTO tasks (id, project_id, staff_id, task_name, due_date, estimated_hours, task_status, task_comments) VALUES (31, 11, 7, 'Create and Deliver Final Report', '20200430', 20.00, 'PENDING', '')
 SET IDENTITY_INSERT tasks OFF
 -- END tasks INSERTs
-
---SELECT projects.*, customers.id, customers.customer_name, companies.id, companies.company_name
---FROM projects
---INNER JOIN customers ON customers.id = projects.customer_id
---INNER JOIN companies ON companies.id = customers.company_id
-
---SELECT * 
---FROM staff
---INNER JOIN companies ON companies.id = staff.company_id
